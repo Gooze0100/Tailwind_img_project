@@ -7,28 +7,28 @@
     <link rel="stylesheet" href="styles.css">
     <title>Tailwind landscapes</title>
 </head>
-<body class="text-black">
+<body class="text-green-500 font-mono">
     <div>
         <div>
             <nav class="bg-black">
                 <div>
                     <h1 class="font-bold uppercase p-4 border-b border-gray-500 text-center">
                         <!-- Media queries -->
-                        <a href="/" class="text-gray-500 md:text-xl sm:text-white lg:text-green-500">Tailwind</a>
+                        <a href="" class="text-gray-500 md:text-xl sm:text-white lg:text-green-500 lg:text-4xl">Tailwind</a>
                     </h1>
                 </div>
-                <ul class="flex">
-                    <li class="text-green-500 font-bold m-2">
+                <ul class="flex items-center flex-wrap p-1">
+                    <li class="font-bold hover:bg-green-900 hover:text-white p-3 rounded-3xl transition-all">
                         <a href="#">
                             <span>Home</span>
                         </a>
                     </li>
-                    <li class="text-green-500 m-2">
+                    <li class="hover:bg-green-900 hover:text-white p-3 rounded-3xl transition-all">
                         <a href="#">
                             <span>About</span>
                         </a>
                     </li>
-                    <li class="text-green-500 m-2">
+                    <li class="hover:bg-green-900 hover:text-white p-3 rounded-3xl transition-all">
                         <a href="#">
                             <span>Contact</span>
                         </a>
@@ -36,56 +36,67 @@
                 </ul>
             </nav>
         </div>
-        <main class="bg-gray-500">
+        <main class="bg-gray-900 p-6">
             <header>
-                <h2 class="text-white text-6xl font-semibold text-center">Agriculture</h2>
-                <h3 class="text-2xl font-semibold text-center mt-5">For front-end Tailwind Project</h3>
+                <h2 class="text-white sm:text-4xl lg:text-6xl font-semibold text-center">Agriculture</h2>
+                <h3 class="text-2xl font-semibold text-center mt-5">Tailwind Project</h3>
             </header>
             <div class="mt-5">
-                <div class="flex justify-center items-center m-5">
-                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 w-1/4 bg-black shadow-md relative">
-                        <img class="rounded-2xl" src="./img/pexels-alison-burrell-195226.jpg">
-                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 hover:bg-gray-700 hover:rotate-3 cursor-pointer transition-colors">1</div>
+                <div class="flex justify-evenly items-center flex-wrap p-2">
+                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 sm:w-full md:w-5/12 lg:w-1/3 xl:w-1/4 bg-black relative group hover:bg-gray-700 transition-all">
+                        <img class="rounded-xl sm:w-full" src="./img/pexels-alison-burrell-195226.jpg">
+                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 transform hover:rotate-180 group-hover:bg-gray-700 cursor-pointer transition-all">1</div>
                     </div>
-                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 w-1/4 bg-black">
-                        <img class="rounded-" src="./img/pexels-edward-eyer-677874.jpg">
-                    </div>
-                </div>
-                <div class="flex justify-center items-center m-5">
-                    <div  class="border-4 border-green-500 rounded-2xl m-2 p-2 w-1/4 bg-black">
-                        <img class="rounded-2xl" src="./img/pexels-freestocksorg-175389.jpg">
-                    </div>
-                    <div  class="border-4 border-green-500 rounded-2xl m-2 p-2 w-1/4 bg-black">
-                        <img class="rounded-2xl" src="./img/pexels-kaboompics-com-5808.jpg">
-                    </div>
-                    <div  class="border-4 border-green-500 rounded-2xl m-2 p-2 w-1/4 bg-black">
-                        <img class="rounded-2xl" src="./img/pexels-kat-jayne-678448.jpg">
+                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 sm:w-full md:w-5/12 lg:w-1/3 xl:w-1/4 bg-black relative group hover:bg-gray-700 transition-all">
+                        <img class="rounded-xl sm:w-full" src="./img/pexels-edward-eyer-677874.jpg">
+                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 transform hover:rotate-180 group-hover:bg-gray-700 cursor-pointer transition-all">2</div>
                     </div>
                 </div>
-                <div class="flex justify-center items-center m-5">
-                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 w-1/4 bg-black">
-                        <img class="rounded-2xl" src="./img/pexels-leah-kelley-185941.jpg">
+                <div class="flex justify-evenly items-center flex-wrap p-2">
+                    <div  class="border-4 border-green-500 rounded-2xl m-2 p-2 sm:w-full md:w-5/12 lg:w-1/3 xl:w-1/4 bg-black relative group hover:bg-gray-700 transition-all">
+                        <img class="rounded-xl sm:w-full" src="./img/pexels-freestocksorg-175389.jpg">
+                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 transform hover:rotate-180 group-hover:bg-gray-700 cursor-pointer transition-all">3</div>
                     </div>
-                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 w-1/4 bg-black">
-                        <img class="rounded-2xl" src="./img/pexels-pixabay-162240.jpg">
+                    <div  class="border-4 border-green-500 rounded-2xl m-2 p-2 sm:w-full md:w-5/12 lg:w-1/3 xl:w-1/4 bg-black relative group hover:bg-gray-700 transition-all">
+                        <img class="rounded-xl sm:w-full" src="./img/pexels-kaboompics-com-5808.jpg">
+                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 transform hover:rotate-180 group-hover:bg-gray-700 cursor-pointer transition-all">4</div>
                     </div>
-                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 w-1/4 bg-black">
-                        <img class="rounded-2xl" src="./img/pexels-rgr-g-1033716.jpg">
-                    </div>
-                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 w-1/4 bg-black">
-                        <img class="rounded-2xl" src="./img/pexels-scott-webb-175262.jpg">
+                    <div  class="border-4 border-green-500 rounded-2xl m-2 p-2 sm:w-full md:w-5/12 lg:w-1/3 xl:w-1/4 bg-black relative group hover:bg-gray-700 transition-all">
+                        <img class="rounded-xl sm:w-full" src="./img/pexels-kat-jayne-678448.jpg">
+                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 transform hover:rotate-180 group-hover:bg-gray-700 cursor-pointer transition-all">5</div>
                     </div>
                 </div>
-                <div class="flex justify-center items-center mt-5">
-                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 w-1/4 bg-black">
-                        <img class="rounded-2xl" src="./img/pexels-vincent-tan-989200.jpg">
+                <div class="flex justify-evenly items-center flex-wrap p-2">
+                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 sm:w-full md:w-5/12 lg:w-1/3 xl:w-1/5 bg-black relative group hover:bg-gray-700 transition-all">
+                        <img class="rounded-xl sm:w-full" src="./img/pexels-leah-kelley-185941.jpg">
+                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 transform hover:rotate-180 group-hover:bg-gray-700 cursor-pointer transition-all">6</div>
+                    </div>
+                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 sm:w-full md:w-5/12 lg:w-1/3 xl:w-1/5 bg-black relative group hover:bg-gray-700 transition-all">
+                        <img class="rounded-xl sm:w-full" src="./img/pexels-pixabay-162240.jpg">
+                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 transform hover:rotate-180 group-hover:bg-gray-700 cursor-pointer transition-all">7</div>
+                    </div>
+                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 sm:w-full md:w-5/12 lg:w-1/3 xl:w-1/5 bg-black relative group hover:bg-gray-700 transition-all">
+                        <img class="rounded-xl sm:w-full" src="./img/pexels-rgr-g-1033716.jpg">
+                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 transform hover:rotate-180 group-hover:bg-gray-700 cursor-pointer transition-all">8</div>
+                    </div>
+                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 sm:w-full md:w-5/12 lg:w-1/3 xl:w-1/5 bg-black relative group hover:bg-gray-700 transition-all">
+                        <img class="rounded-xl sm:w-full" src="./img/pexels-scott-webb-175262.jpg">
+                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 transform hover:rotate-180 group-hover:bg-gray-700 cursor-pointer transition-all">9</div>
+                    </div>
+                </div>
+                <div class="flex justify-evenly items-center flex-wrap p-2">
+                    <div class="border-4 border-green-500 rounded-2xl m-2 p-2 sm:w-full md:w-5/12 lg:w-1/3 xl:w-1/4 bg-black relative group hover:bg-gray-700 transition-all">
+                        <img class="rounded-xl sm:w-full" src="./img/pexels-vincent-tan-989200.jpg">
+                        <div class="absolute bg-black rounded-full h-8 w-8 flex justify-center items-center text-green-500 font-bold top-4 left-4 transform hover:rotate-180 group-hover:bg-gray-700 cursor-pointer transition-all">10</div>
                     </div>
                 </div>
             </div>
         </main>
         <div>
-            <footer>
-
+            <footer class="bg-black flex justify-evenly items-center p-4 flex-wrap">
+                <div class="transition-all transform hover:scale-105 hover:bg-green-900 hover:text-white p-3 rounded-3xl cursor-pointer">About us</div>
+                <div class="transition-all transform hover:scale-105 hover:bg-green-900 hover:text-white p-3 rounded-3xl cursor-pointer">Contact us</div>
+                <div class="transition-all transform hover:scale-105 hover:bg-green-900 hover:text-white p-3 rounded-3xl cursor-pointer">&copy; Giedrius Kalnius</div>
             </footer>
         </div>
     </div>
